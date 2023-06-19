@@ -1,0 +1,33 @@
+body {
+    --main-color: #BAD4AA;
+    --shade-color: #5f6a5a;
+    --border-radius: 15px;
+    --border-color: #3b4536;
+
+    background-color: beige;
+}
+
+.nintendo-top {
+    margin-top: 135px;
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    height: 410px;
+    width: 840px;
+    border: var(--border-color) 3px solid;
+}
+
+.nintendo-middle {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    height: 40px;
+    width: 840px;
+    border: var(--border-color) 3px solid;
+}
+
+.nintendo-bottom {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    height: 410px;
+    width: 840px;
+    border: var(--border-color) 3px solid;
+}
