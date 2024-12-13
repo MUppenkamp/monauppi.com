@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Animal Crossing";
+  src: url("../public/FinkHeavy.ttf");
+}
+
+html {
+  font-family: "Animal Crossing", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+}
