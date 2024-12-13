@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NintendoComponent } from "./nintendo/nintendo.component";
+import { NintendoTopComponent } from './nintendo-top/nintendo-top.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [NintendoComponent],
+  imports: [NintendoTopComponent],
 })
 export class AppComponent {
   messageHeader: string = 'Mona';
