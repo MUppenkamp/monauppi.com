@@ -11,3 +11,7 @@ html {
   font-family: "Animal Crossing", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
 }
+
+.center-fucking-everything {
+  @apply flex justify-center items-center;
+}
