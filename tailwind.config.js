@@ -4,6 +4,9 @@ module.exports = {
   plugins: [require('tailwindcss-logical')],
   theme: {
     extend: {
+      spacing: {
+        thumbpad: '7px',
+      },
       width: {
         nintendo: '30em',
       },
