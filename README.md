@@ -11,7 +11,7 @@ Hope to actually, really release it soon ([monauppi.com](https://monauppi.com/))
 | 💅🏻    | Everything related to css. Means class changes, tailwind stuff, scss, yada yada yada |
 | ❤️‍🔥   | Remove something but make it spicy                                                   |
 | 🎀      | Write docs or README                                                                 |
-| 🔧      | Update packages and stuff like that                                                  |
+| 🔧      | Update packages and update code due to package changes                               |
 | 👷🏻‍♀️ | CLI stuff                                                                            |
 | ♻️‍️    | Reformat code                                                                        |
 
