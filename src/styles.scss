@@ -1,11 +1,17 @@
-@import 'tailwindcss';
+@use 'tailwindcss';
 
 @plugin 'tailwindcss-logical';
 
 @theme {
+  // Spacings
   --spacing-thumb-pad: 7px;
 
+  // Widths / Inline Size
+  --width-screen: 100vi;
   --width-nintendo: 30em;
+
+  // Height / Block Size
+  --height-screen: 100vb;
 
   --color-nintendo-base-color: #ffe7f3;
 
