@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        thumbpad: '7px',
+        'thumb-pad': '7px',
       },
       width: {
         nintendo: '30em',
@@ -14,6 +14,7 @@ module.exports = {
         1: '1px'
       },
       colors: {
+        'nintendo-base-color': '#FFE7F3',
         hotpink: {
           100: "#ffe1f0",
           200: "#ffc3e1",
