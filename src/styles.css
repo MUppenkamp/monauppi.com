@@ -7,8 +7,6 @@
 
   --width-nintendo: 30em;
 
-  --border-width-1: 1px;
-
   --color-nintendo-base-color: #ffe7f3;
 
   --color-hotpink-100: #ffe1f0;
@@ -32,24 +30,6 @@
   --color-green-900: #252a22;
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
-}
-
 @font-face {
   font-family: "Animal Crossing";
   src: url("../public/FinkHeavy.ttf");
@@ -60,6 +40,19 @@ html {
     "Trebuchet MS", sans-serif;
 }
 
-.center-fucking-everything {
+@utility center-fucking-everything {
   @apply flex justify-center items-center;
+}
+
+@utility cute-background-gradient {
+  background: linear-gradient(124.14deg, rgba(255, 252, 243, 0) 20%, rgba(255, 252, 243, 0.3) 39.82%, rgba(255, 252, 243, 0) 60%),
+  radial-gradient(154% 102% at 85% 32.47%, rgba(255, 252, 243, 0) 49.82%, rgba(230, 148, 247, 0.4) 82.11%),
+  radial-gradient(124% 129% at 35% 78.47%, rgba(255, 252, 243, 0) 49.82%, rgba(255, 252, 243, 0.5) 82.11%),
+  radial-gradient(125% 178% at 25% 4.47%, rgba(255, 252, 243, 0) 49.82%, rgba(255, 252, 243, 0.4) 82.11%),
+  radial-gradient(41.58% 150.68% at 26.01% 45.34%, rgba(255, 252, 243, 0.5) 19.17%, rgba(255, 252, 243, 0) 100%),
+  linear-gradient(84.14deg, rgba(230, 148, 247, 0.1) 2.84%, rgba(247, 161, 166, 0.1) 118.515%),
+  radial-gradient(50% 120% at 100% 14.47%, rgba(175, 155, 241, 0) 6.9%, rgba(211, 199, 248, 0.3) 52.84%, rgba(175, 155, 241, 0) 100%),
+  radial-gradient(56% 120% at 90% 112.47%, rgba(255, 155, 130, 0) 26.9%, rgba(255, 155, 130, 0.6) 72.84%, rgba(255, 155, 130, 0) 100%),
+  radial-gradient(35% 68% at 35% 84.47%, #ffaf9b 49.82%, rgba(251, 211, 199, 0) 82.11%),
+  linear-gradient(84.14deg, #e694f7 2.84%, #f7a1a6 118.515%);
 }
