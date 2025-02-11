@@ -1,6 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-logical';
+
+@theme {
+  --spacing-thumb-pad: 7px;
+
+  --width-nintendo: 30em;
+
+  --border-width-1: 1px;
+
+  --color-nintendo-base-color: #ffe7f3;
+
+  --color-hotpink-100: #ffe1f0;
+  --color-hotpink-200: #ffc3e1;
+  --color-hotpink-300: #ffa5d2;
+  --color-hotpink-400: #ff87c3;
+  --color-hotpink-500: #ff69b4;
+  --color-hotpink-600: #cc5490;
+  --color-hotpink-700: #993f6c;
+  --color-hotpink-800: #662a48;
+  --color-hotpink-900: #331524;
+
+  --color-green-100: #f1f6ee;
+  --color-green-200: #e3eedd;
+  --color-green-300: #d6e5cc;
+  --color-green-400: #c8ddbb;
+  --color-green-500: #bad4aa;
+  --color-green-600: #95aa88;
+  --color-green-700: #707f66;
+  --color-green-800: #4a5544;
+  --color-green-900: #252a22;
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
 
 @font-face {
   font-family: "Animal Crossing";
