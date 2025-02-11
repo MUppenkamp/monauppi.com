@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { VentilationComponent } from "./ventilation/ventilation.component";
 
 @Component({
-  standalone: true,
   imports: [VentilationComponent],
   selector: 'nintendo-top',
   templateUrl: 'nintendo-top.component.html',
