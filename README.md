@@ -13,6 +13,7 @@ Hope to actually, really release it soon ([monauppi.com](https://monauppi.com/))
 | 🎀      | Write docs or README                                                                 |
 | 🔧      | Update packages and stuff like that                                                  |
 | 👷🏻‍♀️ | CLI stuff                                                                            |
+| ♻️‍️    | Reformat code                                                                        |
 
 
 <br /><br />
