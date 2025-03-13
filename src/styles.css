@@ -1,18 +1,21 @@
-@use 'tailwindcss';
+@import 'tailwindcss';
 
 @plugin 'tailwindcss-logical';
 
 @theme {
-  // Spacings
+  /* Spacings */
   --spacing-thumb-pad: 7px;
 
-  // Widths / Inline Size
+  /* Widths / Inline Size */
   --width-screen: 100vi;
-  --width-nintendo: 30em;
+  --spacing-nintendo: 30em;
+  --height-nintendo-top-bottom: 21%;
+  --spacing-get-a-bigger-phone: 414px;
 
-  // Height / Block Size
+  /* Height / Block Size */
   --height-screen: 100vb;
 
+  /* Colors */
   --color-nintendo-base-color: #ffe7f3;
 
   --color-hotpink-100: #ffe1f0;
