@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { VentilationComponent } from "./ventilation/ventilation.component";
+import { SpeakerComponent } from "./speaker/speaker.component";
 
 @Component({
-  imports: [VentilationComponent],
+  imports: [SpeakerComponent],
   selector: 'nintendo-top',
   templateUrl: 'nintendo-top.component.html',
 })
