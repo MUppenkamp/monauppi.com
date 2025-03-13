@@ -7,7 +7,7 @@ import { NintendoBotComponent } from "./nintendo-bot/nintendo-bot.component";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.css',
   imports: [NintendoTopComponent, NintendoMidComponent, NintendoBotComponent],
 })
 export class AppComponent {
