@@ -1,6 +1,6 @@
-@import 'tailwindcss';
+/* @import 'tailwindcss'; */
 
-@plugin 'tailwindcss-logical';
+/* @plugin 'tailwindcss-logical'; */
 
 @theme {
   /* Spacings */
@@ -64,4 +64,8 @@ html {
   radial-gradient(56% 120% at 90% 112.47%, rgba(255, 155, 130, 0) 26.9%, rgba(255, 155, 130, 0.6) 72.84%, rgba(255, 155, 130, 0) 100%),
   radial-gradient(35% 68% at 35% 84.47%, #ffaf9b 49.82%, rgba(251, 211, 199, 0) 82.11%),
   linear-gradient(84.14deg, #e694f7 2.84%, #f7a1a6 118.515%);
+}
+
+body {
+  background-color: hotpink;
 }
